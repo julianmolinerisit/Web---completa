@@ -1,0 +1,36 @@
+
+/* Tu estilo CSS irá aquí */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+label,
+input[type="submit"] {
+  margin: 10px 0;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  padding: 10px;
+  font-size: 16px;
+  width: 300px;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.buttom{
+  background-color: aqua;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+
